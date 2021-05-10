@@ -109,16 +109,9 @@
 		2979594F2649885300AE3115 /* CombineTest */ = {
 			isa = PBXGroup;
 			children = (
-				297959502649885300AE3115 /* AppDelegate.swift */,
-				297959522649885300AE3115 /* SceneDelegate.swift */,
-				297959592649885600AE3115 /* Assets.xcassets */,
-				2979595B2649885600AE3115 /* LaunchScreen.storyboard */,
+				4B7A89402649CE9200FD6ADB /* Code */,
 				2979595E2649885600AE3115 /* Info.plist */,
-				2979598026498A3600AE3115 /* LogoutCoordinator.swift */,
-				297959542649885300AE3115 /* LogoutViewController.swift */,
-				2979598326498A4A00AE3115 /* LogoutViewModel.swift */,
-				2979598926498C9D00AE3115 /* Extensions */,
-				2979598E26498E3400AE3115 /* Coordinator */,
+				4B7A89412649CE9900FD6ADB /* Resources */,
 			);
 			path = CombineTest;
 			sourceTree = "<group>";
@@ -157,6 +150,37 @@
 				2979598C26498E3100AE3115 /* Coordinator.swift */,
 			);
 			path = Coordinator;
+			sourceTree = "<group>";
+		};
+		4B7A89402649CE9200FD6ADB /* Code */ = {
+			isa = PBXGroup;
+			children = (
+				297959502649885300AE3115 /* AppDelegate.swift */,
+				297959522649885300AE3115 /* SceneDelegate.swift */,
+				4B7A89462649CEF300FD6ADB /* Logout Module */,
+				2979598926498C9D00AE3115 /* Extensions */,
+				2979598E26498E3400AE3115 /* Coordinator */,
+			);
+			path = Code;
+			sourceTree = "<group>";
+		};
+		4B7A89412649CE9900FD6ADB /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				2979595B2649885600AE3115 /* LaunchScreen.storyboard */,
+				297959592649885600AE3115 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		4B7A89462649CEF300FD6ADB /* Logout Module */ = {
+			isa = PBXGroup;
+			children = (
+				2979598026498A3600AE3115 /* LogoutCoordinator.swift */,
+				297959542649885300AE3115 /* LogoutViewController.swift */,
+				2979598326498A4A00AE3115 /* LogoutViewModel.swift */,
+			);
+			path = "Logout Module";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
